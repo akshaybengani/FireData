@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.akshaybengani.firedata.MainActivity">
+
+    <EditText
+        android:id="@+id/edittextArtistName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Artist Name"
+        style="@style/mystyle1"
+        />
+    <Spinner
+        android:entries="@array/genre"
+        android:id="@+id/spinnerGenre"
+        android:layout_width="match_parent"
+        style="@style/mystyle1"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+    <Button
+        android:id="@+id/buttonPush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/mystyle1"
+        android:text="Send to database"
+        />
+    <ListView
+        android:id="@+id/listviewArtist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FireData</string>
+
+    <array name="genre">
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Classical</item>
+        <item>Dance</item>
+    </array>
+
+</resources>
